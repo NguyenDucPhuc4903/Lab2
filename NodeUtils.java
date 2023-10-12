@@ -35,5 +35,7 @@ public class NodeUtils {
 		NodeUtils nodeut = new NodeUtils();
 		Node result = algo1.execute(nodeS, "G");
 		System.out.println(nodeut.printPath(result));
+		Node result1 = algo1.execute(nodeS, "A", "G");
+		System.out.println(nodeut.printPath(result1));
 	}
 }
